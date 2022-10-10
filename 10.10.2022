@@ -1,0 +1,48 @@
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <title>3.hafta</title>
+    </head>
+    <body>
+        <h1>DPÜ</h1> atilla
+        <!--artık bu kısma istediğim metni yazabilirim bu kısım yorum bölümü sayfayı etkilemiyo istediğim kadar yazabilirim.-->
+        <h4>Sıralı liste</h4>
+        <!--Ordered list-->
+        <ol type="I"><!--type tipini belirliyor sıranın neyden oluşacağı 1/I/a/i gibi-->
+            <li>balıkesirspor</li>
+            <li>galatasaray</li>
+            <li>giresunspor</li>
+            <li>eskişehirspor</li>
+        </ol>
+        <ol type="1" start="50"><!--type tipini belirliyor sıranın neyden oluşacağı 1/I/a/i gibi start her türlü koda sayıyla yazılır kaçıncı sıradakıyse onla devam eder-->
+            <li>balıkesirspor</li>
+            <li>galatasaray</li>
+            <li>giresunspor</li>
+            <li>eskişehirspor</li>
+        </ol>
+        <ol type="i" start="7"><!--type tipini belirliyor sıranın neyden oluşacağı 1/I/a/i gibi-->
+            <li>balıkesirspor</li>
+            <li>galatasaray</li>
+            <li>giresunspor</li>
+            <li>eskişehirspor</li>
+        </ol>
+        <ol type="A" reversed><!-- reversed tersten yapar type tipini belirliyor sıranın neyden oluşacağı 1/I/a/i gibi-->
+            <li>balıkesirspor</li>
+            <li>galatasaray</li>
+            <li>giresunspor</li>
+            <li>eskişehirspor</li>
+            <li>kütahya spor</li>
+        </ol>
+        <h4>Sırasız liste</h4>
+        <!--Unordered list-->
+        <ul>
+            <li>kavun</li>
+            <li>karpuz</li>
+            <li>çilek</li>
+            <li>kiraz</li>
+        </ul>
+        <!--jpg falan filan gibi dosya formatları var bu uzantılar sıkıştırlmış formatlardır geri dönüştürlemez jpeg resim fotoğraf türlerine gif animasyon için
+        png vektörel türdeki fotoğraflar kaydetmek için vektörel özelliğini yitirir transparan desteği var gif gibi bmp kullanım amacı kayıpsız olarak saklamak için  -->
+        <img src="dpu.png" alt="DPÜ" width="200" height="200">
+    </body>
+</html>
