@@ -1,0 +1,28 @@
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Sayfa</title>
+    </head>
+    <body>
+       <table border="1" width="600" align="center">
+            <tr>
+                <th width="200">Ad</th> <!--th ler başlık , width yerine 20% olacak şekildede yazılabilir,colspan kodu sütünları 
+                                            birleştirir rowspan satırları birleştirir-->
+                <th>Soyad</th>    
+            </tr>
+            <tr>
+               <td>atilla</td>
+               <td rowspan="2">öztürk</td>
+            </tr>
+            <tr>
+                <td colspan="2">ahmet öztürk</td> 
+            </tr>
+       </table> 
+
+
+
+
+
+    </body>
+</html>
